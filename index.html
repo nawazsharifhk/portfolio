@@ -124,6 +124,12 @@
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 2rem;
         }
+        
+        .grid-container-single {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+        }
 
         /* Cards (Projects, Education, Certs) */
         .card {
@@ -196,9 +202,10 @@
         <div class="logo">MNS.</div>
         <ul>
             <li><a href="#about">About</a></li>
-            <li><a href="#education">Education</a></li>
             <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
             <li><a href="#certifications">Certifications</a></li>
         </ul>
     </nav>
@@ -247,6 +254,22 @@
                     <span class="skill-tag">Problem Solving</span>
                     <span class="skill-tag">Technical Writing</span>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="grid-container-single">
+            <div class="card">
+                <span class="date-badge">Jun 2026 - Jul 2026</span>
+                <h3>Backend Intern</h3>
+                <p style="color: var(--text-main); font-weight: 600; font-size: 1.1rem; margin-bottom: 1rem;">Assisto Technologies Private Limited</p>
+                <ul style="margin-left: 1.5rem; color: var(--text-muted); list-style-type: disc;">
+                    <li style="margin-bottom: 0.8rem;">Applied API concepts while implementing backend functionality for projects on the Rustify platform. Contributed to building a Customer Relationship Management (CRM) system and an agent timesheet management module.</li>
+                    <li>Gained practical experience in backend development, API implementation, and translating requirements into features.</li>
+                </ul>
             </div>
         </div>
     </section>
@@ -341,7 +364,6 @@
             <p>📞 <a href="tel:+917975429282">+91 7975429282</a></p>
             <p>✉️ <a href="mailto:nawazsharif0726@gmail.com">nawazsharif0726@gmail.com</a></p>
             <p>🔗 <a href="https://linkedin.com/in/mohammed-nawaz-sharif-h-k-5b1b5034b" target="_blank">LinkedIn Profile</a></p>
-            <p>🔗 <a href="https://github.com/nawazsharifhk" target="_blank">Git-Hub</a></p>
         </div>
         <p style="color: var(--text-muted); margin-top: 2rem;">Languages: English, Hindi, Kannada</p>
         <p style="color: var(--text-muted); margin-top: 1rem; font-size: 0.9rem;">&copy; 2026 Mohammed Nawaz Sharif HK. All rights reserved.</p>
